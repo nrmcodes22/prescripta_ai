@@ -17,7 +17,7 @@ This is a Flask-based web application that allows users to view images and their
 
 Before running the application, ensure you have the following installed:
 
-- Python 3.x
+- Python 3.13
 - Flask (`pip install Flask`)
 
 ---
@@ -32,11 +32,10 @@ Before running the application, ensure you have the following installed:
     ```
 2. **Install Dependencies**:
     Install Flask using pip:
-        ```bash
-
-        pip install Flask
-        ```
-        Prepare the Data:
+ ```bash
+ pip install Flask
+ ```
+        
         
 
 ## Running the Application
@@ -50,7 +49,7 @@ python app.py
 ## Access the Application:
 Open your browser and go to http://127.0.0.1:5000/ to view the frontend.
 
-##Code Overview
+## Code Overview
 ### Backend (app.py)
 Reads image filenames and labels from CSV files.
 
