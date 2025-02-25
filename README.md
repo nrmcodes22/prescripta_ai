@@ -39,9 +39,8 @@ Before running the application, ensure you have the following installed:
         
 
 ## Running the Application
-
-    Start the Flask Server:
-    Run the Flask application:
+Start the Flask Server:
+Run the Flask application:
 
 ```bash
 python app.py
