@@ -10,7 +10,7 @@
     <div>
         {% for image in training_images %}
             <div>
-                <img src="{{ url_for('static', filename='images/' + image) }}" alt="{{ image }}" width="200">
+                <img src="{{ url_for('static', filename='images/training_words/' + image) }}" alt="{{ image }}" width="200">
                 <p>Label: {{ training_labels[image] }}</p>
             </div>
         {% endfor %}
@@ -20,7 +20,7 @@
     <div>
         {% for image in testing_images %}
             <div>
-                <img src="{{ url_for('static', filename='images/' + image) }}" alt="{{ image }}" width="200">
+                <img src="{{ url_for('static', filename='images/testing_words/' + image) }}" alt="{{ image }}" width="200">
                 <p>Label: {{ testing_labels[image] }}</p>
             </div>
         {% endfor %}
@@ -30,7 +30,7 @@
     <div>
         {% for image in validation_images %}
             <div>
-                <img src="{{ url_for('static', filename='images/' + image) }}" alt="{{ image }}" width="200">
+                <img src="{{ url_for('static', filename='images/validation_words/' + image) }}" alt="{{ image }}" width="200">
                 <p>Label: {{ validation_labels[image] }}</p>
             </div>
         {% endfor %}
