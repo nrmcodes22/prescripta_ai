@@ -26,15 +26,16 @@ Before running the application, ensure you have the following installed:
 ## Setup Instructions
 
 1. **Clone the Repository**:
-    ```bash
-    git clone <repository-url>
-    cd <repository-folder>
-    ```
+        ```bash
+        git clone <repository-url>
+        cd <repository-folder>
+        ```
 2. **Install Dependencies**:
     Install Flask using pip:
-     ```bash
-     pip install Flask
-     ```
+
+       ```bash
+        pip install Flask
+        ```
         
         
 
