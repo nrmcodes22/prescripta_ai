@@ -1,5 +1,5 @@
 # Prescripta AI
-# Image and Label Viewer
+## Image and Label Viewer
 
 This is a Flask-based web application that allows users to view images and their corresponding labels from specified directories. The application supports three datasets: Training, Testing, and Validation.
 
@@ -22,22 +22,7 @@ Before running the application, ensure you have the following installed:
 
 ---
 
-## Project Structure
-project/
-├── app.py
-├── templates/
-│   └── index.html
-├── static/
-│   └── images/
-├── Training/
-│   ├── training_words/
-│   └── training_labels.csv
-├── Testing/
-│   ├── testing_words/
-│   └── testing_labels.csv
-├── Validation/
-│   ├── validation_words/
-│   └── validation_labels.csv
+
 ## Setup Instructions
 
 1. **Clone the Repository**:
@@ -50,38 +35,28 @@ project/
         ```bash
 
         pip install Flask
-        Prepare the Data:
         ```
-3. **Place your images in the respective folders**:
+        Prepare the Data:
+        
 
-    Training images: Training/training_words
+## Running the Application
 
-    Testing images: Testing/testing_words
-
-    Validation images: Validation/validation_words
-
-Ensure the corresponding label files (training_labels.csv, testing_labels.csv, validation_labels.csv) are in the correct locations.
-
-Copy Images to Static Folder:
-Copy the images from Training/training_words, Testing/testing_words, and Validation/validation_words to the static/images/ folder. This is necessary because Flask serves static files from the static folder.
-
-Running the Application
-Start the Flask Server:
-Run the Flask application:
+    Start the Flask Server:
+    Run the Flask application:
 
 ```bash
 python app.py
 ```
-Access the Application:
+## Access the Application:
 Open your browser and go to http://127.0.0.1:5000/ to view the frontend.
 
-**Code Overview**
-# Backend (app.py)
+##Code Overview
+### Backend (app.py)
 Reads image filenames and labels from CSV files.
 
 Passes the data to the frontend using render_template.
 
-# Frontend (templates/index.html)
+### Frontend (templates/index.html)
 Displays images and their corresponding labels in a simple HTML template.
 
 **Troubleshooting**
@@ -90,6 +65,7 @@ Displays images and their corresponding labels in a simple HTML template.
 2. Missing Images: Copy images to the static/images/ folder.
 
 3. Missing Labels: Ensure the label files (training_labels.csv, testing_labels.csv, validation_labels.csv) are in the correct locations.
+
 **Acknowledgments**
 1. Flask Documentation: https://flask.palletsprojects.com/
 
