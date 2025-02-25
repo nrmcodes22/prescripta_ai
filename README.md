@@ -26,16 +26,16 @@ Before running the application, ensure you have the following installed:
 ## Setup Instructions
 
 1. **Clone the Repository**:
-        ```bash
+    ```bash
         git clone <repository-url>
         cd <repository-folder>
-        ```
+    ```
 2. **Install Dependencies**:
     Install Flask using pip:
 
-       ```bash
+    ```bash
         pip install Flask
-        ```
+    ```
         
         
 
@@ -43,9 +43,9 @@ Before running the application, ensure you have the following installed:
 Start the Flask Server:
 Run the Flask application:
 
-    ```bash
+```bash
     python app.py
-    ```
+ ```
 ## Access the Application:
 Open your browser and go to http://127.0.0.1:5000/ to view the frontend.
 
